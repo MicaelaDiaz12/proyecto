@@ -1,0 +1,393 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*----------------------- header para todas las paginas menos inicio ---------------------- */
+header {
+    font-family: 'Roboto Mono', monospace;
+    grid-area: header;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header li {
+    list-style: none;
+    margin-right: 15px;
+
+}
+
+/*------------------- footer para todas las paginas ------------ */
+footer {
+    grid-area: footer;
+    background-color: black;
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+footer i {
+    margin-top: 15px;
+    color: aliceblue;
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+
+/* -----------------------------inicio------------------------ */
+.inicio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "header header header header"
+        "titulo titulo titulo titulo"
+        "innew innew innew innew"
+        "articulos articulos articulos articulos "
+        "footer footer footer footer";
+    background-image: url(./jkll.\,.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.titulo {
+    grid-area: titulo;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 130px 0px 100px 0px;
+    font-size: 4rem;
+}
+
+.innew {
+    grid-area: innew;
+    margin-top: 155px;
+}
+
+.innew img {
+    width: 100%;
+}
+
+.articulos {
+    grid-area: articulos;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* ------------------------nuevo-------------------- */
+.nuevo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "header header header header"
+        "venta venta venta venta"
+        "footer footer footer footer";
+}
+
+.venta {
+    grid-area: venta;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px 0px 150px 0px;
+}
+
+.ropa {
+    border: solid 1px rgb(168, 167, 167);
+}
+
+.ropa a {
+    text-decoration: none;
+    color: black;
+}
+
+.ropa h3 {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.ropa h4 {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+/*---------------------------- tienda ------------------------ */
+.tienda {
+    display: grid;
+    grid-template-rows: 0fr 1fr 1fr 1fr 0fr;
+    grid-template-columns: 1fr 0.9fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "header header header header"
+        "menu prendas prendas prendas"
+        "menu prendas prendas prendas"
+        "menu prendas prendas prendas"
+        "footer footer footer footer";
+}
+
+.menu {
+    grid-area: menu;
+    border: solid 1px rgb(168, 167, 167);
+    padding: 20px;
+    width: 125px;
+    height: 290px;
+    margin: 50px 0px 0px 25px;
+}
+
+.menu li{
+list-style: none;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    width: 90px;
+}
+
+.menu h3 {
+    padding-bottom: 15px;
+}
+
+.prendas {
+    grid-area: prendas;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0px 35px 15px;
+}
+
+.producto {
+    border: solid 1px rgb(168, 167, 167);
+    margin-bottom: 25px;
+}
+
+.producto a {
+    color: black;
+    text-decoration: none;
+}
+
+.producto h3 {
+    margin: 15px;
+}
+
+.producto h4 {
+    margin: 0px 0px 15px 15px;
+}
+
+/*--------------------------- nosotros------------ */
+
+.nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px;
+    grid-template-areas:
+        "header header header header"
+        "centro centro centro centro"
+        "footer footer footer footer";
+}
+
+.centro {
+    grid-area: centro;
+    display: flex;
+    min-height: 65vh;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0px 50px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.informacion {
+    background-color: black;
+    max-width: 250px;
+    color: aliceblue;
+    text-align: center;
+    padding: 60px 35px 60px 35px;
+}
+
+.informacion p {
+    font-size: 20px;
+}
+
+
+/* -------------------------iniciar cuenta-------------------- */
+.sesion {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "header header header header"
+        "formulario formulario formulario formulario"
+        "footer footer footer footer";
+    background-color: rgb(212, 163, 183);
+
+}
+
+.formulario {
+    grid-area: formulario;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+form {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.429);
+    padding: 86px 137px 86px 137px;
+    border: none;
+}
+
+input {
+    margin: 5px;
+    border: none;
+    width: 200px;
+    height: 30px;
+}
+
+
+@media (max-width:425px) {
+
+    /*---------------------inicio--------------------*/
+    .inicio {
+        background-image: url(./fondocel.\,.jpg);
+
+    }
+
+    .titulo {
+        margin-top: 80px;
+        font-size: 2rem;
+    }
+
+    .innew {
+        margin-top: 70px;
+    }
+
+    .articulos {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 30px 0px 30px 0px;
+    }
+
+    .articulos img {
+        width: 160px;
+        height: 184px;
+        margin-bottom: 15px;
+
+    }
+
+    /*------------------------------ nuevo ---------------------*/
+
+    .venta {
+        margin: 80px 0px 80px 0px;
+    }
+
+    .ropa {
+        max-width: 160px;
+        margin-bottom: 15px;
+    }
+
+    .ropa img {
+        max-width: 160px;
+    }
+
+    .ropa {
+        font-size: 15px;
+    }
+
+
+    /*------------------------------ tienda----------------------- */
+    .menu {
+        border: none;
+        width: 70px;
+        margin-top: 50px;
+        margin-left: 0px;
+        padding: 15px 0px 0px 15px;
+    }
+
+    .menu li {
+        list-style: none;
+    }
+
+    .prendas {
+        margin-left: 0px;
+    }
+
+    .producto {
+        max-width: 130px;
+        justify-content: space-evenly;
+
+    }
+
+    .producto img {
+        max-width: 130px;
+
+    }
+
+    .producto h3 {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+
+    /*-------------------------- header------------ */
+
+    .logo img {
+        width: 90px;
+    }
+
+    header a {
+        font-size: 11px;
+    }
+
+    /*--------------------------- nosotros------------------ */
+    .informacion {
+        margin-bottom: 25px;
+    }
+
+    .informacion p {
+        font-size: 15px;
+    }
+
+    /*--------------------------- iniciar sesion------------------ */
+    form {
+        padding: 90px 60px 90px 60px;
+    }
+
+
+}
