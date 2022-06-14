@@ -60,10 +60,10 @@ footer i {
     font-size: 25px;
     padding-right: 15px;
 }
+
 footer i:hover{
     transition: .3s;
      transform: scale(1.2);
-    
 }
 
 /* -----------------------------inicio------------------------ */
@@ -82,10 +82,6 @@ footer i:hover{
     width: 100%;
 }
 
-h1 {
-    color: aliceblue;
-}
-
 .titulo {
     grid-area: titulo;
     text-align: center;
@@ -101,6 +97,7 @@ h1 {
 
 .innew img {
     width: 100%;
+    transition: 3s;
 }
 
 .articulos {
@@ -301,14 +298,35 @@ form {
 input {
     margin: 5px;
     border: none;
-    width: 200px;
+    width: 250px;
     height: 30px;
+    outline: none;
+    animation-name:cambiodeancho; 
+    animation-duration:5s;
 }
 
 input:hover{
     transition: .9s;
     transform: scale(1.1);
 }
+
+/* animaciones */
+@keyframes cambiodeancho{
+
+0%{
+ width: 450px;
+}    
+
+50%{
+    width: 350px;
+}
+
+100%{
+    width: 250px;
+}
+
+}
+
 
 @media (max-width:425px) {
 
