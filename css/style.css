@@ -88,7 +88,6 @@ footer i:hover{
     color: rgb(255, 255, 255);
     margin: 130px 0px 100px 0px;
     font-size: 4rem;
-    transition: all 3s;
 }
 
 .innew {
@@ -255,15 +254,18 @@ list-style: none;
 }
 
 .informacion {
-    max-width: 250px;
+    
     color: aliceblue;
     text-align: center;
     padding: 60px 35px 60px 35px;
     background-color: rgba(0, 0, 0, 0.571);
+    animation-name:cambioancho; 
+    animation-duration:3s;
 }
 
 .informacion p {
     font-size: 20px;
+    width: 250px;
 }
 
 
@@ -315,19 +317,24 @@ input:hover{
 @keyframes cambiodeancho{
 
 0%{
- width: 450px;
+ width: 400px;
 }    
-
-50%{
-    width: 350px;
-}
 
 100%{
     width: 250px;
 }
 
 }
+@keyframes cambioancho{
 
+       0%{
+        width: 300px;
+       }    
+       
+       100%{
+           width: 250px;
+       }
+}
 
 @media (max-width:425px) {
 
@@ -430,6 +437,7 @@ input:hover{
 
     .informacion p {
         font-size: 15px;
+        max-width: 250px;
     }
 
     /*--------------------------- iniciar sesion------------------ */
