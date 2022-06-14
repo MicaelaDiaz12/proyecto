@@ -45,11 +45,12 @@ header li {
 footer {
     grid-area: footer;
     background-color: black;
-    height: 25vh;
+    height: 30vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    background: linear-gradient(to top, rgb(49, 49, 49), rgb(36, 36, 36) , rgb(0, 0, 0));
 }
 
 footer i {
@@ -57,6 +58,7 @@ footer i {
     color: aliceblue;
     font-size: 25px;
     padding-right: 15px;
+
 }
 
 
@@ -218,6 +220,7 @@ list-style: none;
         "header header header header"
         "centro centro centro centro"
         "footer footer footer footer";
+    background-image: url(./26911ada5ae8f49c6790b8d9629911a5.jpg);
 }
 
 .centro {
@@ -232,16 +235,17 @@ list-style: none;
 }
 
 .informacion {
-    background-color: black;
     max-width: 250px;
     color: aliceblue;
     text-align: center;
     padding: 60px 35px 60px 35px;
+    background-color: rgba(0, 0, 0, 0.571);
 }
 
 .informacion p {
     font-size: 20px;
 }
+
 
 
 /* -------------------------iniciar cuenta-------------------- */
