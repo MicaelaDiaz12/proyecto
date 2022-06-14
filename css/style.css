@@ -306,6 +306,7 @@ input {
     outline: none;
     animation-name:cambiodeancho; 
     animation-duration:5s;
+    transition: all 2s;
 }
 
 input:hover{
@@ -317,7 +318,7 @@ input:hover{
 @keyframes cambiodeancho{
 
 0%{
- width: 400px;
+ width: 350px;
 }    
 
 100%{
