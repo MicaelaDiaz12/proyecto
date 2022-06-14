@@ -88,6 +88,7 @@ footer i:hover{
     color: rgb(255, 255, 255);
     margin: 130px 0px 100px 0px;
     font-size: 4rem;
+    transition: all 3s;
 }
 
 .innew {
@@ -137,6 +138,7 @@ footer i:hover{
 
 .ropa {
     border: solid 1px rgb(168, 167, 167);
+    transition: all 3s;
 }
 
 .ropa:hover{
@@ -207,6 +209,7 @@ list-style: none;
 .producto {
     border: solid 1px rgb(168, 167, 167);
     margin-bottom: 25px;
+    transition: all 3s;
 }
 
 .producto a {
@@ -225,7 +228,6 @@ list-style: none;
 .producto:hover{
     transition: .7s;
     transform: scale(1.1);
-    
 }
 
 /*--------------------------- nosotros------------ */
@@ -263,7 +265,6 @@ list-style: none;
 .informacion p {
     font-size: 20px;
 }
-
 
 
 /* -------------------------iniciar cuenta-------------------- */
