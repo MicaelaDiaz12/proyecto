@@ -142,6 +142,11 @@ h1 {
     border: solid 1px rgb(168, 167, 167);
 }
 
+.ropa:hover{
+        transition: .7s;
+        transform: scale(1.1);
+}
+
 .ropa a {
     text-decoration: none;
     color: black;
@@ -218,6 +223,12 @@ list-style: none;
 
 .producto h4 {
     margin: 0px 0px 15px 15px;
+}
+
+.producto:hover{
+    transition: .7s;
+    transform: scale(1.1);
+    
 }
 
 /*--------------------------- nosotros------------ */
