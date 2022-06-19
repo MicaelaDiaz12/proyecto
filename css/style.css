@@ -128,6 +128,8 @@ footer i:hover{
     flex-wrap: wrap;
 }
 
+
+
 .articulos img:hover{
     transition: .9s;
     transform: scale(1.1);
@@ -273,12 +275,12 @@ list-style: none;
 }
 
 .informacion {
-    
+
     color: aliceblue;
     text-align: center;
     padding: 60px 35px 60px 35px;
     background-color: rgba(0, 0, 0, 0.571);
-    animation-name:cambioancho; 
+    animation-name:cambioancho;
     animation-duration:3s;
 }
 
@@ -323,7 +325,7 @@ input {
     width: 250px;
     height: 30px;
     outline: none;
-    animation-name:cambiodeancho; 
+    animation-name:cambiodeancho;
     animation-duration:5s;
     transition: all 2s;
 }
@@ -338,32 +340,37 @@ input:hover{
 
 0%{
  width: 350px;
-}    
+}
 
 100%{
     width: 250px;
 }
 
 }
+
 @keyframes cambioancho{
 
        0%{
         width: 300px;
-       }    
-       
+       }
+
        100%{
            width: 250px;
        }
 }
 
+@media (max-width:1217px) {
+.articulos img{
+ width: 350px;
+ margin: 15px;
+}
 
-
-@media (max-width:425px) {
+}
+@media (max-width:779px) {
 
     /*---------------------inicio--------------------*/
     .inicio {
         background-image: url(./fondocel.\,.jpg);
-
     }
 
     .titulo {
@@ -372,20 +379,19 @@ input:hover{
     }
 
     .innew {
-        margin-top: 70px;
+        margin-top: 90px;
     }
 
     .articulos {
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin: 30px 0px 30px 0px;
+        margin: 40px 0px 40px 0px;
     }
 
     .articulos img {
-        width: 160px;
-        height: 184px;
-        margin-bottom: 15px;
-
+        width: 200px;
+        height: 200px;
+        margin: 15px;
     }
 
     /*------------------------------ nuevo ---------------------*/
@@ -443,14 +449,20 @@ input:hover{
 
 
     /*-------------------------- header------------ */
+    header{
+        height: 6vh;
+    }
 
     .logo img {
-        width: 90px;
+        width: 50px;
     }
 
     header a {
         font-size: 11px;
     }
+
+    /* footer */
+  
 
     /*--------------------------- nosotros------------------ */
     .informacion {
@@ -462,22 +474,165 @@ input:hover{
         width: 250px;
     }
 
-    /*--------------------------- iniciar sesion------------------ */
+    /*--------------------------- cuenta ------------------ */
     form {
         padding: 90px 60px 90px 60px;
     }
 
 
 }
-@media (max-width:320px){
+
+
+
+@media (max-width:779px) {
+
+    /*---------------------inicio--------------------*/
+    .inicio {
+        background-image: url(./fondocel.\,.jpg);
+    }
+
+    .titulo {
+        margin-top: 80px;
+        font-size: 2rem;
+    }
+
+    .innew {
+        margin-top: 90px;
+    }
+
+    .articulos {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 40px 0px 40px 0px;
+    }
+
+    .articulos img {
+        width: 250px;
+        height: 250px;
+        margin: 5px;
+    }
+
+    /*------------------------------ nuevo ---------------------*/
+
+    .venta {
+        margin: 80px 0px 80px 0px;
+    }
+
+    .ropa {
+        max-width: 160px;
+        margin-bottom: 15px;
+    }
+
+    .ropa img {
+        max-width: 160px;
+    }
+
+    .ropa {
+        font-size: 15px;
+    }
+
+
+    /*------------------------------ tienda----------------------- */
+    .menu {
+        border: none;
+        width: 70px;
+        margin-top: 50px;
+        margin-left: 0px;
+        padding: 15px 0px 0px 15px;
+    }
+
+    .menu li {
+        list-style: none;
+    }
+
+    .prendas {
+        margin-left: 0px;
+    }
+
+    .producto {
+        max-width: 130px;
+        justify-content: space-evenly;
+
+    }
+
+    .producto img {
+        max-width: 130px;
+
+    }
+
+    .producto h3 {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+
+    /*-------------------------- header------------ */
+    header{
+        height: 6vh;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    header a {
+        font-size: 11px;
+    }
+
+    /* footer */
+  
+
+    /*--------------------------- nosotros------------------ */
+    .informacion {
+        margin-bottom: 25px;
+    }
+
+    .informacion p {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    /*--------------------------- cuenta ------------------ */
+    form {
+        padding: 90px 60px 90px 60px;
+    }
+
+
+}
+
+@media (max-width:519px){
+
+    .articulos img {
+        width: 190px;
+        height: 190px;
+        margin: 7px;
+    }
+}
+
+@media (max-width:407px){
     /* header */
+
+    header{
+        height: 9vh;
+    }
+
 .lista-index{
-    margin-left: 5px;
-    margin-right: 0px;
+    margin: 5px;
+
 }
 
 .lista-index a{
     font-size: 10px;
 }
 
+ .logo img{
+        width: 40px;
+    }
+
+    /*-------------- inicio -----------*/
+    .articulos img {
+        width: 170px;
+        height: 170px;
+        margin: 5px;
+    }
 }
