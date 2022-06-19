@@ -22,9 +22,9 @@ header {
     justify-content: center;
 }
 
-.logo img{
+.logo img {
     margin-top: 15px;
-    width:70px;
+    width: 70px;
 }
 
 header ul {
@@ -33,12 +33,12 @@ header ul {
     justify-content: center;
 }
 
-header li:hover{
+header li:hover {
     transition: .7s;
     transform: scale(1.1);
 }
 
-.animate__animated.animate__fadeInDown{
+.animate__animated.animate__fadeInDown {
     --animate-duration: 2.5s;
 }
 
@@ -64,7 +64,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    background: linear-gradient(to top, rgb(49, 49, 49), rgb(36, 36, 36) , rgb(0, 0, 0));
+    background: linear-gradient(to top, rgb(49, 49, 49), rgb(36, 36, 36), rgb(0, 0, 0));
 }
 
 footer i {
@@ -74,9 +74,9 @@ footer i {
     margin-right: 15px;
 }
 
-footer i:hover{
+footer i:hover {
     transition: .3s;
-     transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 /* -----------------------------inicio------------------------ */
@@ -104,7 +104,7 @@ footer i:hover{
 }
 
 
-.animate__animated.animate__fadeIn{
+.animate__animated.animate__fadeIn {
     --animate-duration: 3.5s;
 }
 
@@ -130,11 +130,11 @@ footer i:hover{
 
 
 
-.articulos img:hover{
+.articulos img:hover {
     transition: .9s;
     transform: scale(1.1);
 
-    }
+}
 
 /* ------------------------nuevo-------------------- */
 .nuevo {
@@ -161,9 +161,9 @@ footer i:hover{
     transition: all 1.5s;
 }
 
-.ropa:hover{
-        transition: .7s;
-        transform: scale(1.1);
+.ropa:hover {
+    transition: .7s;
+    transform: scale(1.1);
 }
 
 .ropa a {
@@ -204,8 +204,8 @@ footer i:hover{
     margin: 50px 0px 0px 25px;
 }
 
-.menu li{
-list-style: none;
+.menu li {
+    list-style: none;
 }
 
 .menu a {
@@ -245,7 +245,7 @@ list-style: none;
     margin: 0px 0px 15px 15px;
 }
 
-.producto:hover{
+.producto:hover {
     transition: .7s;
     transform: scale(1.1);
 }
@@ -280,8 +280,8 @@ list-style: none;
     text-align: center;
     padding: 60px 35px 60px 35px;
     background-color: rgba(0, 0, 0, 0.571);
-    animation-name:cambioancho;
-    animation-duration:3s;
+    animation-name: cambioancho;
+    animation-duration: 3s;
 }
 
 .informacion p {
@@ -325,79 +325,79 @@ input {
     width: 250px;
     height: 30px;
     outline: none;
-    animation-name:cambiodeancho;
-    animation-duration:5s;
+    animation-name: cambiodeancho;
+    animation-duration: 5s;
     transition: all 2s;
 }
 
-input:hover{
+input:hover {
     transition: .9s;
     transform: scale(1.1);
 }
 
 /* animaciones */
-@keyframes cambiodeancho{
+@keyframes cambiodeancho {
 
-0%{
- width: 350px;
+    0% {
+        width: 350px;
+    }
+
+    100% {
+        width: 250px;
+    }
+
 }
 
-100%{
-    width: 250px;
-}
+@keyframes cambioancho {
 
-}
-
-@keyframes cambioancho{
-
-       0%{
+    0% {
         width: 300px;
-       }
+    }
 
-       100%{
-           width: 250px;
-       }
+    100% {
+        width: 250px;
+    }
 }
 
 @media (max-width:1115px) {
 
-/*---------------------- inicio --------------- */
+    /*---------------------- inicio --------------- */
 
-.articulos img{
-  width: 350px; 
- margin: 15px;
-}
+    .articulos img {
+        width: 350px;
+        margin: 15px;
+    }
 
-/* --------------------- nuevo ----------------*/
+    /* --------------------- nuevo ----------------*/
 
-.venta{
-margin: 50px 0px 50px 0px;
+    .venta {
+        margin: 50px 0px 50px 0px;
         justify-content: space-evenly;
-}
+    }
 
-.ropa{
-    width: 270px;
-    margin: 50px;
- }
+    .ropa {
+        width: 270px;
+        margin: 50px;
+    }
 
-.ropa img{
-    width: 270px;
-}
+    .ropa img {
+        width: 270px;
+    }
 
-/*------------------- tienda-------------- */
+    /*------------------- tienda-------------- */
 
-.producto{
-    width: 200px;
-    margin: 15px;
-}
+    .producto {
+        width: 200px;
+        margin: 15px;
+    }
 
-.producto img{
-    width: 200px;
-}
+    .producto img {
+        width: 200px;
+    }
 
-.producto h3{
-    font-size: 15px;
-}
+    .producto h3 {
+        font-size: 15px;
+    }
 
 }
 
@@ -438,15 +438,19 @@ margin: 50px 0px 50px 0px;
 
     .ropa {
         width: 192px;
-        margin: 33px; 
+        margin: 33px;
     }
 
     .ropa img {
         width: 192px;
     }
 
-    .ropa h3{
-        font-size: 14px;
+    .ropa h3 {
+        font-size: 9px;
+    }
+
+    .ropa h4{
+        font-size: 5px;
     }
 
     /*------------------------------ tienda----------------------- */
@@ -485,7 +489,7 @@ margin: 50px 0px 50px 0px;
 
 
     /*-------------------------- header------------ */
-    header{
+    header {
         height: 6vh;
     }
 
@@ -498,7 +502,7 @@ margin: 50px 0px 50px 0px;
     }
 
     /* footer */
-  
+
 
     /*--------------------------- nosotros------------------ */
     .informacion {
@@ -518,53 +522,53 @@ margin: 50px 0px 50px 0px;
 
 }
 
-@media (max-width:522px){
-    
-/* nuevo */
+@media (max-width:522px) {
+    git
+    /* nuevo */
 
-.articulos img {
-    width: 190px;
-    height: 190px;
-    margin: 7px;
+    .articulos img {
+        width: 190px;
+        height: 190px;
+        margin: 7px;
+    }
+
+    /* tienda */
+
+    .producto {
+        width: 100px;
+        margin-top: 5px;
+    }
+
+    .producto img {
+        width: 100px;
+    }
+
+    .producto h3 {
+        font-size: 10px;
+    }
+
+    .producto h4 {
+        font-size: 11px;
+    }
+
 }
 
-/* tienda */
+@media (max-width:407px) {
+    /*----------------- header------------ */
 
-.producto{
-    width: 100px;
-    margin-top: 5px;
-}
-
-.producto img{
-    width: 100px;
-}
-
-.producto h3{
-    font-size: 10px;
-}
-
-}
-
-
-
-
-@media (max-width:407px){
-    /* header */
-
-    header{
+    header {
         height: 9vh;
     }
 
-.lista-index{
-    margin: 5px;
+    .lista-index {
+        margin: 5px;
+    }
 
-}
+    .lista-index a {
+        font-size: 10px;
+    }
 
-.lista-index a{
-    font-size: 10px;
-}
-
- .logo img{
+    .logo img {
         width: 40px;
     }
 
