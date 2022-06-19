@@ -359,25 +359,28 @@ input:hover{
        }
 }
 
-@media (max-width:1217px) {
+@media (max-width:1115px) {
     /*---------inicio-------- */
+
 .articulos img{
   width: 350px; 
  margin: 15px;
-
 }
 
 /* ---------------------nuevo------------ */
- .ropa{
-    width: 280px;
-    margin: 50px;
+.venta{
+margin: 50px 0px 50px 0px;
+        justify-content: space-evenly;
+}
 
+.ropa{
+    width: 270px;
+    margin: 50px;
  }
 
 .ropa img{
-    width: 280px;
+    width: 270px;
 }
-
 }
 
 @media (max-width:779px) {
@@ -411,20 +414,22 @@ input:hover{
     /*------------------------------ nuevo ---------------------*/
 
     .venta {
-        margin: 80px 0px 80px 0px;
+        margin: 50px 0px 50px 0px;
+        justify-content: space-evenly;
     }
 
     .ropa {
-        max-width: 160px;
-        margin-bottom: 15px;
-        font-size: 15px;
-        margin: 0px 0px 15px 0px;
+        width: 192px;
+        margin: 33px; 
     }
 
     .ropa img {
-        max-width: 160px;
+        width: 192px;
     }
 
+    .ropa h3{
+        font-size: 14px;
+    }
 
     /*------------------------------ tienda----------------------- */
     .menu {
@@ -494,8 +499,7 @@ input:hover{
 
 }
 
-
-@media (max-width:519px){
+@media (max-width:522px){
 
     .articulos img {
         width: 190px;
