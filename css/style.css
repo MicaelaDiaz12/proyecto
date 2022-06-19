@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-/*----------------------- header para todas las paginas menos inicio ---------------------- */
+/*----------------------- header para todas las paginas ---------------------- */
 header {
     font-family: 'Roboto Mono', monospace;
     grid-area: header;
@@ -20,13 +20,22 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
 
+.logo img{
+    margin-top: 15px;
+    width:70px;
 }
 
 header ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+header li:hover{
+    transition: .7s;
+    transform: scale(1.1);
 }
 
 .animate__animated.animate__fadeInDown{
@@ -94,10 +103,6 @@ footer i:hover{
     font-size: 4rem;
 }
 
-header li:hover{
-        transition: .7s;
-        transform: scale(1.1);
-}
 
 .animate__animated.animate__fadeIn{
     --animate-duration: 3.5s;
@@ -107,11 +112,11 @@ header li:hover{
 .innew {
     grid-area: innew;
     margin-top: 155px;
+
 }
 
 .innew img {
     width: 100%;
-    transition: 3s;
 }
 
 .articulos {
@@ -351,6 +356,8 @@ input:hover{
        }
 }
 
+
+
 @media (max-width:425px) {
 
     /*---------------------inicio--------------------*/
@@ -452,7 +459,7 @@ input:hover{
 
     .informacion p {
         font-size: 15px;
-        max-width: 250px;
+        width: 250px;
     }
 
     /*--------------------------- iniciar sesion------------------ */
@@ -461,4 +468,19 @@ input:hover{
     }
 
 
+}
+@media (max-width:320px){
+    /* header */
+.lista-index{
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+.lista-index a{
+    font-size: 10px;
+}
+
+    .logo img{
+        width: 50px;
+    }
 }
