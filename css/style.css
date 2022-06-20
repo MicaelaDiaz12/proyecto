@@ -531,7 +531,7 @@ input:hover {
         font-size: 10px;
     }
 
-    .menu li{
+    .menu li {
         font-size: 15px;
     }
 
@@ -544,7 +544,7 @@ input:hover {
         height: 8vh;
     }
 
-    .lista{
+    .lista {
         margin: 5px;
     }
 
@@ -575,4 +575,13 @@ input:hover {
         font-size: 15px;
     }
 
+    /* ---------------cuenta ---------------*/
+
+    form {
+        padding: 90px 40px 90px 40px;
+    }
+
+    input{
+        width: 220px;
+    }
 }
